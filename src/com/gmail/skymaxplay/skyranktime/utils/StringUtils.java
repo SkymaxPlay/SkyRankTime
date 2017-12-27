@@ -59,7 +59,7 @@ public class StringUtils {
         sender.sendMessage(fixColors(msg));
     }
 
-    public static void sendMsg(CommandSender sender, String[] msg){
+    public static void sendMsg(CommandSender sender, String... msg){
         msg = toArray(fixColors(toList(msg)));
         sender.sendMessage(msg);
     }

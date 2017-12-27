@@ -29,7 +29,7 @@ public class CheckRanksThread extends BukkitRunnable {
             Player player = Bukkit.getPlayerExact(rank.getUser());
             if(player == null) continue;
 
-            CraftPlayer cr = ((CraftPlayer) player).getHandle().getUniqueID()
+            //CraftPlayer cr = ((CraftPlayer) player).getHandle().getUniqueID()
 
             long time = rank.getExpire();
             if(time <= System.currentTimeMillis()) {

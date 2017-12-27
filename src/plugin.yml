@@ -1,6 +1,6 @@
 name: SkyRankTime
 main: com.gmail.skymaxplay.skyranktime.SkyRankTime
-version: 0.2
+version: 0.3
 author: SkyMaxPlay
 commands:
   skyaddrank:

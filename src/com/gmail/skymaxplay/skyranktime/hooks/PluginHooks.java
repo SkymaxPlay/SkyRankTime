@@ -8,11 +8,12 @@ import org.bukkit.Bukkit;
  */
 public class PluginHooks {
 
-    private static boolean found;
+    public static boolean found;
 
     public static void hookAll(){
         hookPEX();
         hookGM();
+
         if(!found) {
             SkyRankTime.info("Not found any plugin to manage permissions! Disabling SkyRankTime.");
             Bukkit.getPluginManager().disablePlugin(SkyRankTime.getInstance());
