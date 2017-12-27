@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="perms plugins">
+    <CLASSES>
+      <root url="jar://D:/Project Java/biblioteki/bukkit/PermissionsEx-1.23.4.jar!/" />
+      <root url="jar://D:/Project Java/biblioteki/bukkit/EssentialsXGroupManager-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
