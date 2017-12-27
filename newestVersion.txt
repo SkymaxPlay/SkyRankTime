@@ -1,1 +1,1 @@
-0.3
+0.3;Added notifications about new versions of plugin
