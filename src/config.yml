@@ -1,0 +1,24 @@
+# # # # # # # # # # # #
+#     SkyRankTime     #
+# # # # # # # # # # # #
+
+# If true Sending message on chat to all online players when someone receive a rank, else (false) sending only to command sender
+broadcastSetRank: true
+# If true Sending message on chat to all online players when someone break off a rank, else (false) sending only to command sender
+broadcastRemoveRank: false
+
+message:
+  setPermanentRank: '&8[&6SkyRankTime&8] &7Player &2{PLAYER} &7received the rank &2{RANK} &7forever!'
+  setTemporaryRank: '&8[&6SkyRankTime&8] &7Player &2{PLAYER} &7received the rank &2{RANK} &7for time! &7(end: {TIME})'
+
+  removeRank: '&8[&6SkyRankTime&8] &7Removed player`s &2{PLAYER} &7rank &2{RANK}&7!'
+
+  numberFormat: '&8[&6SkyRankTime&8] &cWrong time format!'
+  foundRank: '&8[&6SkyRankTime&8] &cNot found the rank of a user!'
+  foundGroup: '&8[&6SkyRankTime&8] &cNot found the group with this name!'
+
+# Time format used in variable `{TIME}`. Patterns: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+timeFormat: 'HH:mm:ss dd:MM:yyyy'
+
+# How often check ranks (in seconds)
+internalCheckRank: 1

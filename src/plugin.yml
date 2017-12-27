@@ -1,0 +1,11 @@
+name: SkyRankTime
+main: com.gmail.skymaxplay.skyranktime.SkyRankTime
+version: 0.2
+author: SkyMaxPlay
+commands:
+  skyaddrank:
+    aliases: [addrank, rank, setrank, skyrank, skyranktime, srt]
+    description: Add rank
+  skyremoverank:
+    aliases: [removerank, rmrank]
+    description: Remove rank
